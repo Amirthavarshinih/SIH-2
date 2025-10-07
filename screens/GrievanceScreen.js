@@ -1,12 +1,12 @@
 import React from "react";
 import { View, Text, StyleSheet, SafeAreaView } from "react-native";
 
-export default function ProfileScreen() {
+export default function GrievanceScreen() {
   return (
     <SafeAreaView style={styles.safeArea}>
       <View style={styles.container}>
-        <Text style={styles.title}>My Profile</Text>
-        <Text style={styles.text}>User details, contact information, and security settings will go here.</Text>
+        <Text style={styles.title}>Grievance Redressal</Text>
+        <Text style={styles.text}>Users can submit new complaints, track existing grievance status, and escalate issues here.</Text>
       </View>
     </SafeAreaView>
   );

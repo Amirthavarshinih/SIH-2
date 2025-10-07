@@ -1,12 +1,12 @@
 import React from "react";
 import { View, Text, StyleSheet, SafeAreaView } from "react-native";
 
-export default function ProfileScreen() {
+export default function FAQScreen() {
   return (
     <SafeAreaView style={styles.safeArea}>
       <View style={styles.container}>
-        <Text style={styles.title}>My Profile</Text>
-        <Text style={styles.text}>User details, contact information, and security settings will go here.</Text>
+        <Text style={styles.title}>Frequently Asked Questions (FAQs)</Text>
+        <Text style={styles.text}>Searchable section covering common questions about schemes, eligibility, and the application process.</Text>
       </View>
     </SafeAreaView>
   );

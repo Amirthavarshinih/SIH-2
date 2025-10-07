@@ -1,12 +1,12 @@
 import React from "react";
 import { View, Text, StyleSheet, SafeAreaView } from "react-native";
 
-export default function ProfileScreen() {
+export default function LegalAidScreen() {
   return (
     <SafeAreaView style={styles.safeArea}>
       <View style={styles.container}>
-        <Text style={styles.title}>My Profile</Text>
-        <Text style={styles.text}>User details, contact information, and security settings will go here.</Text>
+        <Text style={styles.title}>Legal Aid</Text>
+        <Text style={styles.text}>Information on accessing free legal counsel and filing grievances will be available here.</Text>
       </View>
     </SafeAreaView>
   );

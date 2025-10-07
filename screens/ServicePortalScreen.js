@@ -1,12 +1,12 @@
 import React from "react";
 import { View, Text, StyleSheet, SafeAreaView } from "react-native";
 
-export default function ProfileScreen() {
+export default function ServicePortalScreen() {
   return (
     <SafeAreaView style={styles.safeArea}>
       <View style={styles.container}>
-        <Text style={styles.title}>My Profile</Text>
-        <Text style={styles.text}>User details, contact information, and security settings will go here.</Text>
+        <Text style={styles.title}>Service Portal</Text>
+        <Text style={styles.text}>A directory of support services and external schemes will be listed here.</Text>
       </View>
     </SafeAreaView>
   );
